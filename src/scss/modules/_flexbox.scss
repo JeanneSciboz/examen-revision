@@ -1,0 +1,31 @@
+.flexbox {
+  margin-top: 40px;
+}
+
+.box {
+  background: #42a5f5;
+  border: 1px solid #0d47a1;
+  padding: 20px;
+}
+
+.container_1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-top: 50px;
+}
+
+.container_3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.container_3 .box {
+  width: 25%;
+}
