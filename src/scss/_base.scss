@@ -31,6 +31,7 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img,
@@ -38,6 +39,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  max-width: 100%;
 }
 
 .row + .row {
@@ -52,5 +54,5 @@ video {
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
 /* ====================================
-// base rules
+// 
 // ==================================== */
